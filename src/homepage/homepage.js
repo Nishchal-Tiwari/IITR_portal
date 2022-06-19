@@ -1,6 +1,7 @@
 import React from 'react';
+import Emailer from '../configration/email_sender'
 export default function homepage() {
     return (
-        <h1>Homepage</h1>
+        <Emailer />
     );
 }
